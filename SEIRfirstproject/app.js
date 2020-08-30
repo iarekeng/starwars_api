@@ -1,10 +1,31 @@
 $.ajax({
-  url: 'http://gateway.marvel.com/v1/public/comics?ts=1&apikey=064aa985e6b2fbe9bb5ec2df91ce2eef&hash=b8cc14b96f5398bf90378e4418693a52927beb9f'
+  url: 'https://swapi.dev/api/people',
+  type: 'GET'
 }).then(
   (data) => {
-    console.log('works');
+      $('#card1').html(data.results[0].name);
+      $('#card2').html(data.results[9].name);
+      $('#card7').html(data.results[3].name);
   },
-  (error) => {
-      console.log('failed');
-  }
 )
+
+$.get("http://swapi.dev/api/people/?page=2", function(data) {
+  $('#card3').html(data.results[0].name);
+  $('#card4').html(data.results[8].name);
+  $('#card9').html(data.results[9].name);
+})
+
+$.get("http://swapi.dev/api/people/?page=4", function(data) {
+  $('#card5').html(data.results[0].name);
+})
+$.get("http://swapi.dev/api/people/?page=5", function(data) {
+  $('#card6').html(data.results[9].name);
+  $('#card8').html(data.results[2].name);
+})
+
+$.get("http://swapi.dev/api/people/?page=7", function(data) {
+  $('#card10').html(data.results[5].name);
+})
+$.get("http://swapi.dev/api/people/?page=8", function(data) {
+  $('#card11').html(data.results[7].name);
+})
