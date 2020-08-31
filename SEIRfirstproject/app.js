@@ -2,7 +2,7 @@ $(() => {
 
 
 
-    let link = `https://swapi.dev/api/people`
+    let link = `https://swapi.dev/api/people/?page=1`
 
   $.ajax({
     url: link,
