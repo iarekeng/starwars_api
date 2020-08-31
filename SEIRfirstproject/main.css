@@ -4,7 +4,7 @@ body {
   text-align: center;
   background-color: #4D4A4A;
   font-family: 'Rajdhani', sans-serif;
-  background-image: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/star-wars-backgrounds-38.jpg');
+  background-image: url('Images/star-wars-backgrounds-38.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -33,7 +33,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: darkgrey;
-  background-image: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/star-wars-backgrounds-38.jpg');
+  background-image: url('Images/star-wars-backgrounds-38.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 80%;
@@ -50,7 +50,7 @@ body {
   background-size: cover;
   width: 80%;
   height: 100%;
-  background-image: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/star-wars-backgrounds-38.jpg');
+  background-image: url('Images/star-wars-backgrounds-38.jpg');
   height: 100%;
   margin: auto;
 }
@@ -90,7 +90,7 @@ body {
 }
 
 #card1 {
-  background: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/Luke-skywalker-jedi.jpg');
+  background: url('Images/Luke-skywalker-jedi.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -98,21 +98,21 @@ body {
 
 
 #card2 {
-  background: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/obiwan2.jpg');
+  background: url('Images/obiwan2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
 
 #card3 {
-  background: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/Anakin_Skywalker_RotS.png');
+  background: url('Images/Anakin_Skywalker_RotS.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
 
 #card4 {
-  background: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/bb yoda.jpg');
+  background: url('Images/bb yoda.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -120,46 +120,46 @@ body {
 }
 
 #card5 {
-  background: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/QuiGonPortrait-SWE.jpg');
+  background: url('Images/QuiGonPortrait-SWE.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
 #card6 {
-  background: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/mace windu.jpg');
+  background: url('Images/mace windu.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
 }
 #card7 {
-  background: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/vader.jpg');
+  background: url('Images/vader.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: white;
 }
 #card8 {
-  background: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/darth maul.jpg');
+  background: url('Images/darth maul.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
 #card9 {
-  background: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/palpetine.png');
+  background: url('Images/palpetine.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
 }
 #card10 {
-  background: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/Count-dooku.jpg');
+  background: url('Images/Count-dooku.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
 #card11 {
-  background: url('/Users/KengLee/myprojects/iarekeng.github.io/SEIRfirstproject/Images/grevious.jpg');
+  background: url('Images/grevious.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;

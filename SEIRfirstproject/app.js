@@ -14,25 +14,25 @@ $(() => {
       $('#card1').html(data.results[0].name).on('click', display)
       }
       )
-      $.get("http://swapi.dev/api/people/?page=2", (data) => {
+      $.get("https://swapi.dev/api/people/?page=2", (data) => {
       $('#card3').html(data.results[0].name).on('click', display)
       $('#card4').html(data.results[8].name).on('click', display)
       $('#card9').html(data.results[9].name).on('click', display)
     })
   })
 
-           $.get("http://swapi.dev/api/people/?page=4", (data) => {
+           $.get("https://swapi.dev/api/people/?page=4", (data) => {
            $('#card5').html(data.results[0].name).on('click', display)
       })
-           $.get("http://swapi.dev/api/people/?page=5", (data) => {
+           $.get("https://swapi.dev/api/people/?page=5", (data) => {
            $('#card6').html(data.results[9].name).on('click', display)
            $('#card8').html(data.results[2].name).on('click', display)
       })
 
-           $.get("http://swapi.dev/api/people/?page=7", (data) => {
+           $.get("https://swapi.dev/api/people/?page=7", (data) => {
            $('#card10').html(data.results[5].name).on('click', display)
       })
-           $.get("http://swapi.dev/api/people/?page=8", (data) => {
+           $.get("https://swapi.dev/api/people/?page=8", (data) => {
            $('#card11').html(data.results[7].name).on('click', display)
       })
   // })
