@@ -13,7 +13,9 @@ body {
 
 .title {
   color: black;
-  font-family: Starjedi;
+  font-family: 'Russo One', sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
   font-size: 70px;
   text-shadow: 2px 2px 5px gold;
   margin-bottom: 1.5em;
@@ -98,6 +100,7 @@ body {
   width: 100%;
   z-index: 1;
   overflow: auto;
+
 }
 
 .modal-body {

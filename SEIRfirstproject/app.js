@@ -63,7 +63,7 @@ const close = () => {
 
 window.onclick = function (event) {
     if (event.target == modal) {
-      closeModal();
+      close();
     }
   };
 
@@ -72,11 +72,6 @@ $('#close').on('click', close)
 
 })
 
-const library = {
-  target: {
-
-  }
-}
 /* CODE GRAVEYARD
 
 
