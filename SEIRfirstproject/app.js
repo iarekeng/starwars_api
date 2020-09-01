@@ -40,8 +40,8 @@ const stats = () => {
   $.get("https://swapi.dev/api/people/?search=" + target, data => {
     const results = data.results[0]
     $('#name').text(results.name)
-    $('#height').text('height: ' + results.height)
-    $('#mass').text('mass: ' + results.mass)
+    $('#height').text('height: ' + results.height +'cm')
+    $('#mass').text('mass: ' + results.mass +'kg')
     $('#birth').text('birth: ' + results.birth_year)
   })
 }
@@ -57,6 +57,12 @@ const openModal = () => {
 const close = () => {
   $modal.css('display', 'none')
 }
+
+window.onclick = function (event) {
+    if (event.target == modal) {
+      closeModal();
+    }
+  };
 
 $('.card').on('click', openModal)
 $('#close').on('click', close)
