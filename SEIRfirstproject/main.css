@@ -25,7 +25,7 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   transform: skew(-20deg);
   text-align: center;
-  width: 79%;
+  width: 78%;
   font-size: 35px;
   text-shadow: 3px 0 0 black;
   margin: auto;
@@ -35,12 +35,12 @@ body {
 
   color: crimson;
   background-color: rgba(0, 0, 0, 0.4);
-  transform: skew(20deg);
+  transform: skew(-20deg);
   text-align: center;
-  width: 79%;
+  width: 78%;
   font-size: 35px;
   text-shadow: 3px 0 0 black;
-  margin: 1em 3em 0em 3em;
+  margin: 1em 3.5em 0em 3em;
 }
 
 .jedicontainer {
@@ -130,15 +130,15 @@ body {
 }
 
 #card3 {
-  background: url('Images/Anakin_Skywalker_RotS.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  flex-direction: column-reverse;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  font-size: 14px;
-}
+    background: url('Images/leia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    flex-direction: column-reverse;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
 
 #card4 {
   background: url('Images/bb yoda.jpg');
@@ -152,7 +152,7 @@ body {
 }
 
 #card5 {
-  background: url('Images/QuiGonPortrait-SWE.jpg');
+  background: url('Images/Chewbacca_TLJ.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -161,7 +161,7 @@ body {
   text-orientation: upright;
 }
 #card6 {
-  background: url('Images/mace windu.jpg');
+  background: url('Images/hansolo-1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -216,4 +216,15 @@ body {
   flex-direction: column-reverse;
   writing-mode: vertical-rl;
   text-orientation: upright;
+}
+
+#card12 {
+  background: url('Images/Anakin_Skywalker_RotS.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  flex-direction: column-reverse;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 14px;
 }

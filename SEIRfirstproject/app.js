@@ -10,17 +10,20 @@ $(() => {
     $('#card1').html(data.results[0].name).on('click', stats)
     $('#card2').html(data.results[9].name).on('click', stats)
     $('#card7').html(data.results[3].name).on('click', stats)
+    $('#card3').html(data.results[4].name).on('click', stats)
   })
     $.get("https://swapi.dev/api/people/?page=2", (data) => {
-    $('#card3').html(data.results[0].name).on('click', stats)
+    $('#card12').html(data.results[0].name).on('click', stats)
     $('#card4').html(data.results[8].name).on('click', stats)
+    $('#card5').html(data.results[2].name).on('click', stats)
+    $('#card6').html(data.results[3].name).on('click', stats)
     $('#card9').html(data.results[9].name).on('click', stats)
   })
     $.get("https://swapi.dev/api/people/?page=4", (data) => {
-    $('#card5').html(data.results[0].name).on('click', stats)
+    // $('#card5').html(data.results[0].name).on('click', stats)
   })
     $.get("https://swapi.dev/api/people/?page=5", (data) => {
-    $('#card6').html(data.results[9].name).on('click', stats)
+
     $('#card8').html(data.results[2].name).on('click', stats)
   })
     $.get("https://swapi.dev/api/people/?page=7", (data) => {
@@ -69,6 +72,11 @@ $('#close').on('click', close)
 
 })
 
+const library = {
+  target: {
+
+  }
+}
 /* CODE GRAVEYARD
 
 
