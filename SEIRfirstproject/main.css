@@ -99,7 +99,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: 1;
-  overflow: auto;
+  overflow:visible;
 
 }
 
@@ -108,7 +108,22 @@ body {
   color: white;
   height: 500px;
   width: 550px;
-  margin: 150px auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#name, #height, #mass, #birth {
+  font-size: 20px;
+  justify-content: center;
+
+}
+
+#close {
+  color: crimson;
+  float: right;
+  font-size: 20px;
+  margin-top: 9em;
 }
 
 #card1 {
@@ -144,7 +159,7 @@ body {
   }
 
 #card4 {
-  background: url('Images/bb yoda.jpg');
+  background: url('Images/bb yoda.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

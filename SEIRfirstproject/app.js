@@ -49,6 +49,10 @@ const stats = () => {
   })
 }
 
+const gifs = () => {
+  const target = $(event.currentTarget).append('src',)
+}
+
 // made the modal so when you click on a card it pulls up a modal
 const $modal = $('#modal')
 const $close = $('#close')
@@ -71,6 +75,13 @@ $('.card').on('click', openModal)
 $('#close').on('click', close)
 
 })
+
+const library = {
+  card1: {
+    id: 'Luke Skywalker',
+    gif: 'https://giphy.com/gifs/l1uguPc8TBNzHXTgc/html5'
+  }
+}
 
 /* CODE GRAVEYARD
 
