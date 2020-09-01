@@ -100,17 +100,21 @@ body {
   width: 100%;
   z-index: 1;
   overflow: auto;
-
 }
 
 .modal-body {
   background-color: black;
   color: white;
-  height: 500px;
   width: 550px;
-  margin: auto;
+  height: 550px;
+  position: absolute;
+  float: left;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
+
 }
 
 #name, #height, #mass, #birth {
@@ -245,4 +249,9 @@ body {
   writing-mode: vertical-rl;
   text-orientation: upright;
   font-size: 14px;
+}
+
+@keyframes modal-move {
+  0% {modal-body: top:0%}
+  100% {modal-body: top:2em;}
 }
