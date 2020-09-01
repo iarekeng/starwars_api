@@ -13,19 +13,34 @@ body {
 
 .title {
   color: black;
-  font-size: 60px;
+  font-family: Starjedi;
+  font-size: 70px;
   text-shadow: 2px 2px 5px gold;
+  margin-bottom: 1.5em;
 }
 
 .jedi-title {
+
   color: #acdbfa;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: skew(-20deg);
+  text-align: center;
+  width: 79%;
+  font-size: 35px;
   text-shadow: 3px 0 0 black;
-  margin: 20px 0px;
+  margin: auto;
 }
 
 .sith-title {
+
   color: crimson;
-  text-shadow: 2px 0 0 black;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: skew(20deg);
+  text-align: center;
+  width: 79%;
+  font-size: 35px;
+  text-shadow: 3px 0 0 black;
+  margin: 1em 3em 0em 3em;
 }
 
 .jedicontainer {
