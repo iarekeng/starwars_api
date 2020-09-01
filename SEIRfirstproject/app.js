@@ -59,10 +59,12 @@ const $close = $('#close')
 
 const openModal = () => {
   $modal.css('display', 'block')
+
 }
 
 const close = () => {
   $modal.css('display', 'none')
+  event.preventDefault()
 }
 
 window.onclick = function (event) {
