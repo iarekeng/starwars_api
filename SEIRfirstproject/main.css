@@ -337,6 +337,16 @@ body {
     box-shadow: 10px 10px 5px black;
     opacity: 100%;
   }
+  #card1 {
+    background: url("Images/Luke-skywalker-jedi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    flex-direction: column-reverse;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+
 }
 
 @media screen and (min-device-width: 568px) and (max-device-width: 812px) {
@@ -379,6 +389,16 @@ body {
     box-shadow: 10px 10px 5px black;
     opacity: 100%;
   }
+  #card1 {
+    background: url("Images/Luke-skywalker-jedi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    flex-direction: column-reverse;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 900px) {
@@ -421,6 +441,16 @@ body {
     box-shadow: 10px 10px 5px black;
     opacity: 100%;
   }
+  #card1 {
+    background: url("Images/Luke-skywalker-jedi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    flex-direction: column-reverse;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+
 }
 
 /@media screen and (min-device-width: 1024px) and (max-device-height: 768px) {
