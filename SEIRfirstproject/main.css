@@ -4,9 +4,9 @@
 
 body {
   text-align: center;
-  background-color: #4D4A4A;
-  font-family: 'Rajdhani', sans-serif;
-  background-image: url('Images/background sw.jpg');
+  background-color: #4d4a4a;
+  font-family: "Rajdhani", sans-serif;
+  background-image: url("Images/background sw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -15,7 +15,7 @@ body {
 
 .title {
   color: black;
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
   text-transform: uppercase;
   font-style: italic;
   font-size: 70px;
@@ -24,7 +24,7 @@ body {
 }
 
 .carousel-container {
-  width: 55%;
+  width: 70%;
   display: flex;
   justify-content: space-around;
   margin: auto;
@@ -33,11 +33,12 @@ body {
 
 .carousel-images {
   background: transparent;
-  width: 70%;
+  width: 80%;
   height: 50%;
   border-radius: 10px;
   margin: auto;
   background-size: cover;
+  box-shadow: 10px 10px 10px black;
 }
 
 .carousel-images img {
@@ -61,28 +62,32 @@ body {
   text-align: center;
 }
 
-.jedi-title {
+#prevbutton, #nextbutton {
+  background-color: darkgrey;
+  font-size: 20px;
+  border-radius: 10px;
+}
 
+.jedi-title {
   color: #acdbfa;
   background-color: rgba(0, 0, 0, 0.4);
   transform: skew(-20deg);
   text-align: center;
-  width: 78%;
+  width: 84%;
   font-size: 35px;
   text-shadow: 3px 0 0 black;
   margin: auto;
 }
 
 .sith-title {
-
   color: crimson;
   background-color: rgba(0, 0, 0, 0.4);
   transform: skew(-20deg);
   text-align: center;
-  width: 78%;
+  width: 84%;
   font-size: 35px;
   text-shadow: 3px 0 0 black;
-  margin: auto
+  margin: auto;
 }
 
 .jedicontainer {
@@ -96,7 +101,7 @@ body {
   width: 90%;
   height: 100%;
   margin: auto;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .sithcontainer {
@@ -110,7 +115,7 @@ body {
   /* background-image: url('Images/background sw.jpg'); */
   height: 100%;
   margin: auto;
-
+  padding-bottom: 40px;
 }
 
 .card {
@@ -155,13 +160,14 @@ body {
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
-
 }
 
-#name, #height, #mass, #birth {
+#name,
+#height,
+#mass,
+#birth {
   font-size: 20px;
   justify-content: center;
-
 }
 
 #close {
@@ -172,7 +178,7 @@ body {
 }
 
 #card1 {
-  background: url('Images/Luke-skywalker-jedi.jpg');
+  background: url("Images/Luke-skywalker-jedi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -181,9 +187,8 @@ body {
   text-orientation: upright;
 }
 
-
 #card2 {
-  background: url('Images/obiwan2.jpg');
+  background: url("Images/obiwan2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -193,18 +198,18 @@ body {
 }
 
 #card3 {
-    background: url('Images/leia.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    flex-direction: column-reverse;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-  }
+  background: url("Images/leia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  flex-direction: column-reverse;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
 
 #card4 {
-  background: url('Images/bb yoda.jpeg');
+  background: url("Images/bb yoda.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -215,7 +220,7 @@ body {
 }
 
 #card5 {
-  background: url('Images/Chewbacca_TLJ.png');
+  background: url("Images/Chewbacca_TLJ.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -224,7 +229,7 @@ body {
   text-orientation: upright;
 }
 #card6 {
-  background: url('Images/hansolo-1.jpg');
+  background: url("Images/hansolo-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -234,7 +239,7 @@ body {
   text-orientation: upright;
 }
 #card7 {
-  background: url('Images/vader.jpg');
+  background: url("Images/vader.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -244,7 +249,7 @@ body {
   text-orientation: upright;
 }
 #card8 {
-  background: url('Images/darth maul.jpg');
+  background: url("Images/darth maul.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -253,7 +258,7 @@ body {
   text-orientation: upright;
 }
 #card9 {
-  background: url('Images/palpetine.png');
+  background: url("Images/palpetine.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -263,7 +268,7 @@ body {
   text-orientation: upright;
 }
 #card10 {
-  background: url('Images/Count-dooku.jpg');
+  background: url("Images/Count-dooku.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -272,7 +277,7 @@ body {
   text-orientation: upright;
 }
 #card11 {
-  background: url('Images/grevious.jpg');
+  background: url("Images/grevious.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -282,7 +287,7 @@ body {
 }
 
 #card12 {
-  background: url('Images/Anakin_Skywalker_RotS.png');
+  background: url("Images/Anakin_Skywalker_RotS.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -291,8 +296,213 @@ body {
   text-orientation: upright;
   font-size: 14px;
 }
+/* portrait for all mobile devices */
+@media screen and (min-device-width: 280px) and (max-device-width: 567px){
+  .jedicontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: transparent;
+    /* background-image: url('Images/star-wars-backgrounds-38.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
 
-@keyframes modal-move {
-  0% {modal-body: top:0%}
-  100% {modal-body: top:2em;}
+  .sithcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    /* background-image: url('Images/background sw.jpg'); */
+    height: 100%;
+    margin: auto;
+  }
+
+  .card {
+    display: flex;
+    width: 48%;
+    height: 23%;
+    background-color: black;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    margin-left: 0px;
+    filter: grayscale(100%);
+    box-shadow: 10px 10px 5px black;
+    opacity: 100%;
+  }
 }
+
+@media screen and (min-device-width: 568px) and (max-device-width: 812px) {
+  .jedicontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: transparent;
+    /* background-image: url('Images/star-wars-backgrounds-38.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+
+  .sithcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    /* background-image: url('Images/background sw.jpg'); */
+    height: 100%;
+    margin: auto;
+  }
+
+  .card {
+    display: flex;
+    width: 45%;
+    height: 65%;
+    background-color: black;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    filter: grayscale(100%);
+    box-shadow: 10px 10px 5px black;
+    opacity: 100%;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 900px) {
+  .jedicontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: transparent;
+    /* background-image: url('Images/star-wars-backgrounds-38.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+
+  .sithcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    /* background-image: url('Images/background sw.jpg'); */
+    height: 100%;
+    margin: auto;
+  }
+
+  .card {
+    display: flex;
+    width: 45%;
+    height: 35%;
+    background-color: black;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    filter: grayscale(100%);
+    box-shadow: 10px 10px 5px black;
+    opacity: 100%;
+  }
+}
+
+/@media screen and (min-device-width: 1024px) and (max-device-height: 768px) {
+  .jedicontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: transparent;
+    /* background-image: url('Images/star-wars-backgrounds-38.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+
+  .sithcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    /* background-image: url('Images/background sw.jpg'); */
+    height: 100%;
+    margin: auto;
+  }
+
+  .card {
+    display: flex;
+    width: 45%;
+    height: 60%;
+    background-color: black;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    filter: grayscale(100%);
+    box-shadow: 10px 10px 5px black;
+    opacity: 100%;
+  }
+}
+@media screen and (min-device-width: 1024px) and (max-device-height: 1366px) {
+  .jedicontainer {
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: transparent;
+    /* background-image: url('Images/star-wars-backgrounds-38.jpg'); */
+    /*background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+
+  .sithcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    /* background-image: url('Images/background sw.jpg'); */
+  /*  height: 100%;
+    margin: auto;
+  }
+
+  .card {
+    display: flex;
+    width: 45%;
+    height: 35%;
+    background-color: black;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    filter: grayscale(100%);
+    box-shadow: 10px 10px 5px black;
+    opacity: 100%;
+  }
+}
+*/
