@@ -1,6 +1,40 @@
 $(() => {
 
+
   let link = "https://swapi.dev/api/people/"
+  let numOfImages = $('.carousel-images').children().length - 1
+  let currentImgIndex = 0;
+  console.log(numOfImages);
+
+// NEXT BUTTON
+// when we click on the "next" button
+$('.next').on('click', () => {
+  event.preventDefault()
+  // hide the current image
+  $('.carousel-images').children().eq(currentImgIndex).hide()
+  // if the current image index is less than the number of images we have
+  if (currentImgIndex < numOfImages) {
+    // increment the image index
+    currentImgIndex++
+  } else {
+    // else set the image index back to 0
+    currentImgIndex = 0
+  }
+
+  // show the next image
+  $('.carousel-images').children().eq(currentImgIndex).show()
+})
+  // PREVIOUS BUTTON
+  // When we click on the "previous" button
+  $('.previous').on('click', () => {
+    $('.carousel-images').children().eq(currentImgIndex).hide()
+    if (currentImgIndex < 0) {
+      currentImgIndex--;
+    } else {
+      currentImgIndex = 0
+    }
+    $('.carousel-images').children().eq(currentImgIndex).show()
+  })
 
   $.ajax ({
     url: link,
